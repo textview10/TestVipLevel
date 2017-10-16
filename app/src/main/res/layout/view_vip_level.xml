@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view_vip_line0"
+            style="@style/style_view_line" />
+
+
+        <ImageView
+            android:id="@+id/iv_vip1"
+            style="@style/style_vip_level_choice"
+            android:src="@drawable/v0" />
+
+        <View
+            android:id="@+id/view_vip_line1"
+            style="@style/style_view_line" />
+
+
+        <ImageView
+            style="@style/style_vip_level_choice"
+            android:src="@drawable/v1" />
+
+        <View
+            android:id="@+id/view_vip_line2"
+            style="@style/style_view_line" />
+
+
+        <ImageView
+            style="@style/style_vip_level_choice"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/v2" />
+
+
+        <View
+            android:id="@+id/view_vip_line3"
+            style="@style/style_view_line" />
+
+
+        <ImageView
+            style="@style/style_vip_level_choice"
+            android:src="@drawable/v3" />
+
+        <View
+            android:id="@+id/view_vip_line4"
+            style="@style/style_view_line" />
+
+
+        <ImageView
+            style="@style/style_vip_level_choice"
+            android:src="@drawable/v4" />
+
+        <View
+            android:id="@+id/view_vip_line5"
+            style="@style/style_view_line" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_vip_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/xuanzhong0" />
+</RelativeLayout>
